@@ -1,4 +1,4 @@
-const comicQuestions = []
+const comicQuestions = [] 
 
 export {
   comicQuestions
