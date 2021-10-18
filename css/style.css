@@ -28,6 +28,18 @@ body {
   align-items: center;
 }
 
+ div{
+  position: fixed;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+h1{
+  position: fixed;
+  top:25%;
+  transform: translate(-50%, -50%);
+}
+
+
 .container {
   display: flex;
   gap: 10%;
