@@ -6,6 +6,12 @@ const animeQuestions = [
   } , 
 
   {
+    question : "Which anime make up the orginal Big 3?",
+    correctAnswer : "OnePiece, Nauto, Bleach",
+    choices : ["DragonBall Z, Naruto, One Piece","OnePiece, Nauto, Bleach","Yu Yu Hakksho, DragonBall Z , Roushin Kenshin", "Demon Slayer, My Hero Academia , Black Clover" ]
+  } ,
+
+  {
     question : "What is Ichigos Bankai called?" ,
     correctAnswer : "Tensa Zangetsu",
     choices : ["Hakka No Togame","Tensa Zangetsu","Sōō Zabimaru","Daiguren Hyōrinmaru"]
@@ -26,8 +32,8 @@ const animeQuestions = [
 
   {
     question : "What was the phrase Vash the Stampede based his actions from?",
-    correctAnswer : "Love and peace!",
-    choices : ["Whatever Happens, Happens", ""]
+    correctAnswer : "Love and peace",
+    choices : ["Whatever happens,happens", "Love and peace","If you don’t take risks, you can’t create a future!", "Sometimes it’s necessary to do unnecessary things."]
   } 
 ]
 

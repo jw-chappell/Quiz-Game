@@ -1,5 +1,34 @@
 const cartoonsQuestions = [
-  
+  {
+    question : "",
+    correctAnswer : "",
+    choices : [""]
+  } ,
+
+  {
+    question : "",
+    correctAnswer : "",
+    choices : [""]
+  } ,
+
+  {
+    question : "",
+    correctAnswer : "",
+    choices : [""]
+  } ,
+
+  {
+    question : "",
+    correctAnswer : "",
+    choices : [""]
+  } ,
+
+
+  {
+    question : "",
+    correctAnswer : "",
+    choices : [""]
+  } 
 ]
 
 function getRandomCartoonsQuestions() {

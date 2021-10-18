@@ -1,5 +1,33 @@
 const nflQuestions = [
-  
+  {
+    question : "",
+    correctAnswer : "",
+    choices : [""]
+  } ,
+
+  {
+    question : "",
+    correctAnswer : "",
+    choices : [""]
+  } ,
+
+  {
+    question : "",
+    correctAnswer : "",
+    choices : [""]
+  } ,
+
+  {
+    question : "",
+    correctAnswer : "",
+    choices : [""]
+  } ,
+
+  {
+    question : "",
+    correctAnswer : "",
+    choices : [""]
+  } 
 ]
 
 function getRandomNflQuestions() {

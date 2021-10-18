@@ -1,5 +1,35 @@
 const comicsQuestions = [
+  {
+    question : "",
+    correctAnswer : "",
+    choices : [""]
+  } ,
 
+  {
+    question : "",
+    correctAnswer : "",
+    choices : [""]
+  } ,
+
+  {
+    question : "",
+    correctAnswer : "",
+    choices : [""]
+  } ,
+
+  {
+    question : "",
+    correctAnswer : "",
+    choices : [""]
+  } ,
+
+  {
+    question : "",
+    correctAnswer : "",
+    choices : [""]
+  } ,
+
+  
   
 ] 
 
