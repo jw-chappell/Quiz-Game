@@ -1,0 +1,5 @@
+const animeQuestions = []
+
+export {
+  animeQuestions 
+}

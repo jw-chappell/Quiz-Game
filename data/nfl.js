@@ -1,0 +1,5 @@
+const nflQuestions = []
+
+export {
+  nflQuestions
+}

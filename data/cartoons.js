@@ -1,0 +1,5 @@
+const cartoonsQuestions = []
+
+export {
+  cartoonsQuestions
+}
