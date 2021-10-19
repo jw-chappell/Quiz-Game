@@ -51,27 +51,39 @@ const animeQuestions = [
   },
 
   {
-    question : "",
-    correctAnswer : "",
-    choices : [""]
+    question : "Which wall in Attack on Titan was destoryed first",
+    correctAnswer : 3,
+    choices : ["Wall Maria", 
+               "Wall Sina", 
+               "Wall Rose", 
+               "Wall Luna"]
   } ,
 
   {
-    question : "",
-    correctAnswer : "",
-    choices : [""]
+    question : "How many dragon balls do you need to grant a wish",
+    correctAnswer : 0,
+    choices : ["Seven", 
+               "Four", 
+               "Ten", 
+               "Eight"]
   } ,
 
   {
-    question : "",
-    correctAnswer : "",
-    choices : [""]
+    question : "Besides water whatelse can ghouls consume?",
+    correctAnswer : 1,
+    choices : ["Soda",
+               "Coffee",
+               "Wine",
+               "Milk"]
   } ,
 
   {
-    question : "",
-    correctAnswer : "",
-    choices : [""]
+    question : "What fighting style does Mori Jin use in God of highschool?",
+    correctAnswer : 0,
+    choices : ["Renewal Taekwondo",
+               "Tai Chi",        
+               "Northern ITF Taekwondo",
+               "Full Contact Karate"]
   } ,
 
 
