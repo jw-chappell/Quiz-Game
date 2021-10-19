@@ -6,9 +6,9 @@ const comicsQuestions = [
   } ,
 
   {
-    question : "",
-    correctAnswer : ,
-    choices : [""]
+    question : "Who is Spider-Man's biggest Critic?",
+    correctAnswer : 2,
+    choices : ["Tony Stark","Norman Osborn","J Jonah Jameson", "Aunt May"]
   } ,
 
   {
@@ -18,9 +18,9 @@ const comicsQuestions = [
   } ,
 
   {
-    question : "",
-    correctAnswer : ,
-    choices : [""]
+    question : "Whaat is the name of the metal in Wolverine's skeleton",
+    correctAnswer : 3,
+    choices : ["Antarctic vibranium","Vibranium","Carbonadium","Adamantium"]
   } ,
 
   {
@@ -42,9 +42,9 @@ const comicsQuestions = [
   } ,
 
   {
-    question : "",
-    correctAnswer : "",
-    choices : [""]
+    question : "Which group betrayed Hulk sending him into space?",
+    correctAnswer : 0,
+    choices : ["The lllumintai","Fantastic Four","The Denfenders","The Avengers"]
   } ,
 
   {
@@ -54,9 +54,9 @@ const comicsQuestions = [
   } ,
 
   {
-    question : "",
-    correctAnswer : "",
-    choices : [""]
+    question : "What is the name of the vibranium-enchaned plant that gives the Black Panther his powers??",
+    correctAnswer : 3,
+    choices : ["The Tainted Lily","The Panthers Rose","The Panther's Poppy","Heart-Shaped Herb"]
   } ,
 ] 
 
