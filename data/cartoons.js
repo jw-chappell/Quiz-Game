@@ -1,17 +1,20 @@
-const cartoonsQuestions = [
+let cartoonsQuestions = [
   {
     question : "What is Spongebob's pet snail name?",
     correctAnswer : 0,
     choices : ["Gary",
                "Luke",
                "Greg",
-               "Henry"]
+               "Terry"]
   } ,
 
   {
     question : "What age are you decommissioned in Kids Next Door",
     correctAnswer : 3,
-    choices : ["Twleve","Eleven","Ten","Thirteen"]
+    choices : ["Twleve",
+               "Eleven",
+               "Ten",
+               "Thirteen"]
   } ,
 
   {
@@ -37,38 +40,56 @@ const cartoonsQuestions = [
   {
     question : "Ed,Edd n Eddy always wanted to get what candy?",
     correctAnswer : 1,
-    choices : ["Jolly Ranchers","Jawbreakers","Warheads","Lollipops"]
+    choices : ["Jolly Ranchers",
+               "Jawbreakers",
+               "Warheads",
+               "Lollipops"]
   },
 
   {
     question : "What was Stiich's experiment number?",
     correctAnswer : 3,
-    choices : ["262","787","090","626"]
+    choices : ["262",
+               "787",
+               "090",
+               "626"]
   } ,
 
   {
     question : "Which element did Aang struggle with the most? ",
     correctAnswer : 1,
-    choices : ["Water","Earth","Fire", "Air"]
+    choices : ["Water",
+               "Earth",
+               "Fire", 
+               "Air"]
   } ,
 
   {
     question : "Where does Courage the Cowardly Dog live ",
     correctAnswer : 2,
-    choices : ["In the Middle Forest", "Underground", "In the Middle of Nowhere","The Country-Side"]
+    choices : ["In the Middle Forest", 
+               "Underground", 
+               "In the Middle of Nowhere",
+               "The Country-Side"]
   } ,
 
   {
     question : "How many days of summer vacation are there?",
     correctAnswer : 0,
-    choices : ["104","100","94","120"]
+    choices : ["104",
+               "100",
+               "94",
+               "120"]
   } ,
 
 
   {
     question : "What kind of animal is Rocko, from Rocko's Modern Life?",
     correctAnswer : 3,
-    choices : ["Koala","Kangraoo","Wombat","Wallaby"]
+    choices : ["Koala",
+               "Kangraoo",
+               "Wombat",
+               "Wallaby"]
   } 
 ]
 

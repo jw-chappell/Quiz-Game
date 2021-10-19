@@ -1,8 +1,11 @@
-const animeQuestions = [
+let animeQuestions = [
   {
     question : "How many Hasiahra are in Demon Slayer? ",
     correctAnswer : 2,
-    choices : ["Twelve, Seven , Nine , Eleven"]
+    choices : ["Twelve", 
+               "Seven", 
+               "Nine",
+               "Eleven"]
   } , 
 
   {
