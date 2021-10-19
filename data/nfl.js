@@ -1,8 +1,8 @@
 const nflQuestions = [
   {
-    question : "",
-    correctAnswer : "",
-    choices : [""]
+    question : "How many SuperBowl rings does Tom Brady have? ",
+    correctAnswer : "7",
+    choices : ["8","6","7","4"]
   } ,
 
   {
@@ -27,12 +27,44 @@ const nflQuestions = [
     question : "",
     correctAnswer : "",
     choices : [""]
-  } 
+  },
+
+  {
+    question : "",
+    correctAnswer : "",
+    choices : [""]
+  } ,
+
+  {
+    question : "",
+    correctAnswer : "",
+    choices : [""]
+  } ,
+
+  {
+    question : "",
+    correctAnswer : "",
+    choices : [""]
+  } ,
+
+  {
+    question : "",
+    correctAnswer : "",
+    choices : [""]
+  } ,
+
+  {
+    question : "",
+    correctAnswer : "",
+    choices : [""]
+  } ,
+
+
+
+
+
 ]
 
-function getRandomNflQuestions() {
-  return nflQuestions[Math.floor(Math.random() * (nflQuestions.length - 1))]
-}
 
 export {
   nflQuestions

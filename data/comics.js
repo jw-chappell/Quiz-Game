@@ -1,5 +1,29 @@
 const comicsQuestions = [
   {
+    question : "Which Flash created the Speed Force",
+    correctAnswer : "Barry Allen",
+    choices : ["Wally West","Barry Allen","Jay Garrick","Bart Allen"]
+  } ,
+
+  {
+    question : "",
+    correctAnswer : "",
+    choices : [""]
+  } ,
+
+  {
+    question : "",
+    correctAnswer : "",
+    choices : [""]
+  } ,
+
+  {
+    question : "",
+    correctAnswer : "",
+    choices : [""]
+  } ,
+
+  {
     question : "",
     correctAnswer : "",
     choices : [""]
@@ -29,13 +53,12 @@ const comicsQuestions = [
     choices : [""]
   } ,
 
-  
-  
+  {
+    question : "",
+    correctAnswer : "",
+    choices : [""]
+  } ,
 ] 
-
-function getRandomComicsQuestions() {
-  return comicsQuestions[Math.floor(Math.random() * (comicsQuestions.length - 1))]
-}
 
 export {
   comicsQuestions

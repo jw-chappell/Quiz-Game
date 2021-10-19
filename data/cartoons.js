@@ -1,5 +1,39 @@
 const cartoonsQuestions = [
   {
+    question : "What is Spongebob's pet snail name?",
+    correctAnswer : 0,
+    choices : ["Gary",
+               "Luke",
+               "Greg",
+               "Henry"]
+  } ,
+
+  {
+    question : "",
+    correctAnswer : "",
+    choices : [""]
+  } ,
+
+  {
+    question : "",
+    correctAnswer : "",
+    choices : [""]
+  } ,
+
+  {
+    question : "",
+    correctAnswer : "",
+    choices : [""]
+  } ,
+
+
+  {
+    question : "",
+    correctAnswer : "",
+    choices : [""]
+  },
+
+  {
     question : "",
     correctAnswer : "",
     choices : [""]
@@ -31,9 +65,6 @@ const cartoonsQuestions = [
   } 
 ]
 
-function getRandomCartoonsQuestions() {
-  return cartoonsQuestions[Math.floor(Math.random() * (cartoonsQuestions.length - 1))]
-}
 export {
   cartoonsQuestions
 }
