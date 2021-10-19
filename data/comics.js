@@ -1,4 +1,4 @@
-const comicsQuestions = [
+let comicsQuestions = [
   {
     question : "Which Flash created the Speed Force",
     correctAnswer : 1,
@@ -30,9 +30,9 @@ const comicsQuestions = [
   } ,
 
   {
-    question : "",
-    correctAnswer : ,
-    choices : [""]
+    question : "Deadpool was created as a parody of which DC character ",
+    correctAnswer : 1,
+    choices : ["Bloodshot","Deathstroke","Batman","Deadshot"]
   } ,
 
   {
