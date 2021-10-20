@@ -1,4 +1,4 @@
-let animeQuestions = [
+const animeQuestions = [
   {
     question : "How many Hasiahra are in Demon Slayer? ",
     correctAnswer : 2,
@@ -92,6 +92,11 @@ let animeQuestions = [
 
 ]
 
+function getAnimeQuestions() {
+  let question = animeQuestions[Math.floor(Math.random() *(animeQuestions.length - 1))]   
+ return question.question
+}
+
 export {
-  animeQuestions 
+  getAnimeQuestions
 }

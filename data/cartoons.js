@@ -1,4 +1,4 @@
-let cartoonsQuestions = [
+const cartoonsQuestions = [
   {
     question : "What is Spongebob's pet snail name?",
     correctAnswer : 0,

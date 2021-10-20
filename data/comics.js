@@ -1,4 +1,4 @@
-let comicsQuestions = [
+const comicsQuestions = [
   {
     question : "Which Flash created the Speed Force",
     correctAnswer : 1,
