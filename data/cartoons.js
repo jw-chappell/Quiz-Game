@@ -93,6 +93,15 @@ const cartoonsQuestions = [
   } 
 ]
 
+
+function getCartoonsQuestions() {
+  return cartoonsQuestions[Math.floor(Math.random() * (cartoonsQuestions.length - 1))]
+}
+// function getCartoonsQuestions() {
+//   let question = cartoonsQuestions[Math.floor(Math.random() *(cartoonsQuestions.length - 1))]   
+//  return question.question
+// }
+
 export {
-  cartoonsQuestions
+  getCartoonsQuestions
 }

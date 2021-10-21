@@ -28,8 +28,14 @@ body {
   align-items: center;
 }
 
+main{
+  display: flex;
+  flex-direction: column;
+}
+
+
  div{
-  position: fixed;
+  /* position: fixed; */
   top: 40%;
   transform: translate(-50%, -50%);
 }
@@ -44,3 +50,4 @@ h1{
   display: flex;
   gap: 10%;
 }
+

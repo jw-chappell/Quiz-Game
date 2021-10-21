@@ -27,7 +27,7 @@ const nflQuestions = [
   } ,
 
   {
-    question : "Who is the wingingest coach in NFL history?",
+    question : "Which NFL Coach has the most wins in NFL History?",
     correctAnswer : 3,
     choices : ["Vince Lombardi", 
                "Tom Landry",
@@ -45,7 +45,7 @@ const nflQuestions = [
   },
 
   {
-    question : "Which NFL team has the nicknamed 'America's Team' ",
+    question : "Which NFL team has the nicknamed 'America's Team'? ",
     correctAnswer : 2,
     choices : ["Pittsburg Steelers", 
                "Green Bay Packers", 
@@ -72,7 +72,7 @@ const nflQuestions = [
   } ,
 
   {
-    question : "Which player was this quote made for '2/3 of the world is covered by water. The other third is covered by ______' ",
+    question : "Which player was this quote made for '2/3 of the world is covered by water. The other third is covered by ______'? ",
     correctAnswer : 2,
     choices : ["Deion Sanders", 
                "Rod Woodson", 
@@ -92,6 +92,14 @@ const nflQuestions = [
 ]
 
 
+function getNflQuestions() {
+  return nflQuestions[Math.floor(Math.random() * (nflQuestions.length - 1))]
+}
+// function getNflQuestions() {
+//   let question = nflQuestions[Math.floor(Math.random() *(nflQuestions.length - 1))]   
+//  return question.question
+// }
+
 export {
-  nflQuestions
+  getNflQuestions
 }

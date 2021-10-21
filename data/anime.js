@@ -1,6 +1,6 @@
 const animeQuestions = [
   {
-    question : "How many Hasiahra are in Demon Slayer? ",
+    question : "How many Hasiahra/Pillars are in Demon Slayer? ",
     correctAnswer : 2,
     choices : ["Twelve", 
                "Seven", 
@@ -54,7 +54,7 @@ const animeQuestions = [
   },
 
   {
-    question : "Which wall in Attack on Titan was destoryed first",
+    question : "Which wall in Attack on Titan was destoryed first?",
     correctAnswer : 3,
     choices : ["Wall Maria", 
                "Wall Sina", 
@@ -63,7 +63,7 @@ const animeQuestions = [
   } ,
 
   {
-    question : "How many dragon balls do you need to grant a wish",
+    question : "How many dragon balls do you need to grant a wish?",
     correctAnswer : 0,
     choices : ["Seven", 
                "Four", 
@@ -93,9 +93,12 @@ const animeQuestions = [
 ]
 
 function getAnimeQuestions() {
-  let question = animeQuestions[Math.floor(Math.random() *(animeQuestions.length - 1))]   
- return question.question
+  return animeQuestions[Math.floor(Math.random() * (animeQuestions.length - 1))]
 }
+// // function getAnimeQuestions() {
+// //   let question = animeQuestions[Math.floor(Math.random() *(animeQuestions.length - 1))]   
+// //  return question.question
+// // }
 
 export {
   getAnimeQuestions

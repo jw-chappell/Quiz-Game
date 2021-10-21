@@ -1,6 +1,6 @@
 const comicsQuestions = [
   {
-    question : "Which Flash created the Speed Force",
+    question : "Which Flash created the Speed Force?",
     correctAnswer : 1,
     choices : ["Wally West",
                "Barry Allen",
@@ -27,7 +27,7 @@ const comicsQuestions = [
   } ,
 
   {
-    question : "Whaat is the name of the metal in Wolverine's skeleton",
+    question : "What is the name of the metal in Wolverine's skeleton?",
     correctAnswer : 3,
     choices : ["Antarctic vibranium",
                "Vibranium",
@@ -45,7 +45,7 @@ const comicsQuestions = [
   } ,
 
   {
-    question : "Deadpool was created as a parody of which DC character ",
+    question : "Deadpool was created as a parody of which DC character? ",
     correctAnswer : 1,
     choices : ["Bloodshot",
                "Deathstroke",
@@ -81,7 +81,7 @@ const comicsQuestions = [
   } ,
 
   {
-    question : "What is the name of the vibranium-enchaned plant that gives the Black Panther his powers??",
+    question : "What is the name of the vibranium-enchaned plant that gives the Black Panther his powers?",
     correctAnswer : 3,
     choices : ["The Tainted Lily",
                "The Panthers Rose",
@@ -90,6 +90,16 @@ const comicsQuestions = [
   } ,
 ] 
 
+
+function getComicsQuestions() {
+  return comicsQuestions[Math.floor(Math.random() * (comicsQuestions.length - 1))]
+}
+
+// function getComicsQuestions() {
+//   let question = comicsQuestions[Math.floor(Math.random() *(comicsQuestions.length - 1))]   
+//  return question.question
+// }
+
 export {
-  comicsQuestions
+  getComicsQuestions
 }
