@@ -28,6 +28,10 @@ body {
   align-items: center;
 }
 
+.hide{
+  display: none;
+}
+
 main{
   display: flex;
   flex-direction: column;

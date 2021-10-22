@@ -18,7 +18,9 @@ const cat = []
 
 /*------------------------ Cached Element References ------------------------*/
 
-
+const startBtn = document.querySelector('#start-btn')
+const nextBtn = document.querySelector('#next-btn')
+const topicContainer = document.querySelector('#topic-container')
 const animeBtn = document.querySelector("#anime-button")
 const nflBtn = document.querySelector("#nfl-button")
 const comicsBtn = document.querySelector("#comics-button")
@@ -32,9 +34,21 @@ const answer3 = document.querySelector('#answer-3')
 const answer4 = document.querySelector('#answer-4')
 
 /*----------------------------- Event Listeners -----------------------------*/
-
-animeBtn.addEventListener("click", appearQuestion)
-
+startBtn.addEventListener('click',startGame)
+animeBtn.addEventListener("click",animeB)
+// () => {
+//   const animeQuestions = {
+//     source: "Anime Questions",
+//     questions: getAnimeQuestions(),
+//   }
+//  cat.push(animeQuestions)
+//  question.innerText = cat[0].questions.question
+//  answer1.innerText = cat[0].questions.choices[0]
+//  answer2.innerText = cat[0].questions.choices[1]
+//  answer3.innerText = cat[0].questions.choices[2]
+//  answer4.innerText = cat[0].questions.choices[3]
+//   // textBox.innerText = "anime" 
+// })
 
 nflBtn.addEventListener("click", () => {
   const nflQuestions = {
@@ -42,12 +56,6 @@ nflBtn.addEventListener("click", () => {
     questions: getNflQuestions(),
   }
  cat.push(nflQuestions)
- console.log("CAT: ", cat);
- console.log("CAT[0]: ",cat[0])
- console.log("CAT[0].QUESTIONS: ",cat[0].questions)
- console.log("CAT[0].QUESTIONS.QUESTION: ",cat[0].questions.question)
- console.log("CAT[0].QUESTIONS.CHOICES: ",cat[0].questions.choices)
- console.log("CAT[0].QUESTIONS.CHOICES[0]: ",cat[0].questions.choices[0])
  question.innerText = cat[0].questions.question
  answer1.innerText = cat[0].questions.choices[0]
  answer2.innerText = cat[0].questions.choices[1]
@@ -62,9 +70,12 @@ comicsBtn.addEventListener("click", () => {
     questions: getComicsQuestions(),
   }
   cat.push(comicsQuestions)  
-  console.log(cat);
-  // console.log(getComicsQuestions());
-  textBox.innerText = "Comics" 
+  question.innerText = cat[0].questions.question
+  answer1.innerText = cat[0].questions.choices[0]
+  answer2.innerText = cat[0].questions.choices[1]
+  answer3.innerText = cat[0].questions.choices[2]
+  answer4.innerText = cat[0].questions.choices[3]
+  // textBox.innerText = "Comics" 
 })
 
 cartoonsBtn.addEventListener("click", () => {
@@ -73,34 +84,32 @@ cartoonsBtn.addEventListener("click", () => {
     questions: getCartoonsQuestions(),
   }
   cat.push(cartoonsQuestions)  
-  console.log(cat);
-  // console.log(getCartoonsQuestions());
-  textBox.innerText = "Cartoons"
+  question.innerText = cat[0].questions.question
+  answer1.innerText = cat[0].questions.choices[0]
+  answer2.innerText = cat[0].questions.choices[1]
+  answer3.innerText = cat[0].questions.choices[2]
+  answer4.innerText = cat[0].questions.choices[3]
 })
 
 
 /*-------------------------------- Functions --------------------------------*/
  
-  function appearQuestion(evt) {
+function startGame() {
+  startBtn.style.display = 'none';
+	topicContainer.classList.remove('hide');
+  // nextBtn.style.display = 'none';
+}
+
+  function animeB(evt) {
     const animeQuestions = {
       source: evt.target.id === "anime-button",
       questions: evt.target.id === "anime-button" ? getAnimeQuestions(): console.log("anime")
   } 
-cat.push(animeQuestions)
-  // console.log(question) 
-  // render()
+  cat.push(animeQuestions)
+  console.log(question) 
   }
 
-  // function render() {
-  //   questionContainer.innerHTML = ""
-  //   question.forEach((Que) => {
-  //     appendQuestion(Que)
-  //   })
-  // }
-
-  // function appendQuote(Que) {
-  //   let 
-  // }
+ 
 
   // function appearQuestion(evt) {
   //   const nflQuestions = {
